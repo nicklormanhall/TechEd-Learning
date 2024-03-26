@@ -1,0 +1,13 @@
+body {
+  min-height: 100vh;
+  background-color: Black;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1:hover {
+  color: grey;
+}
