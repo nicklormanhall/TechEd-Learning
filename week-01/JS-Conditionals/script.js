@@ -1,4 +1,5 @@
 console.log("JS-Conditionals");
+console.dir(document);
 
 // if (1 > 0) {
 //   console.log("1 is greater than 0");
@@ -46,3 +47,30 @@ if (age > 17) {
   }
   // ...
 }
+
+let myName = "Nick";
+let myChildren = "Melissa and Ashley";
+console.log(myName + " " + myChildren);
+console.log(`${myName} ${myChildren}`);
+
+let firstName = "Imhotep";
+console.log(`${firstName} is ${firstName.length} characters long`);
+
+let name = "Bob";
+console.log(typeof name); // Output: string
+
+let number = 1;
+console.log("The type of number is " + typeof number); // Output: The type of number is number
+
+let isTrue = true;
+console.log(`The type of isTrue is ${typeof isTrue}`); // Output: The type of isTrue is boolean
+
+let a = 1;
+let b = 2;
+let isAGreaterThanB = a > b;
+let isALessThanB = a < b;
+let isAEqualToB = a === b;
+
+console.log(isAGreaterThanB); // Output: false
+console.log(isALessThanB); // Output: true
+console.log(isAEqualToB); // Output: false
