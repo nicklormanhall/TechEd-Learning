@@ -1,4 +1,9 @@
 * {
   background-color: rgb(49, 36, 60);
   color: rgb(217, 157, 186);
+  font-family: "Courier New", Courier, monospace;
+}
+
+body {
+  padding: 20px;
 }

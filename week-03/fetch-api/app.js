@@ -11,24 +11,25 @@
 
 // using github repo https://api.github.com/repos/nicklormanhall/assessment-week1-northernlights for the stargazer_count
 
-async function getMyNortherLightsRepo() {
+async function getMyNorthernLightsRepo() {
   const response = await fetch(
     "https://api.github.com/repos/nicklormanhall/assessment-week1-northernlights"
   );
   console.log("HTTP Response:", response);
   const data = await response.json();
-  console.log("JSON Data:", json);
+  //   console.log("JSON Data:", json);
 
-  const wrangledData = data.stargazer;
+  const wrangledData = data.stargazers_count; //uses the api   "stargazers_count": 0,
   console.log(wrangledData);
   return wrangledData;
 }
+
 function displayStart(wrangledDataParameter) {
   const star = document.getElementById("stargazer");
   star.textContent = wrangledDataParameter;
 }
 async function addStargazerToPage() {
-  const wrangledDataArgument = await getMyNortherLightsRepo();
+  const wrangledDataArgument = await getMyNorthernLightsRepo();
   displayStart(wrangledDataArgument);
 }
 
