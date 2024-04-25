@@ -22,3 +22,4 @@ const favouriteNumbers = [20, 6, 7, 11];
 console.log(favouriteFoods);
 console.log(favouriteColours);
 console.log(favouriteNumbers);
+console.log("BlogPost lenght", blogPosts.length);

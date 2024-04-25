@@ -1,6 +1,6 @@
 .image-container {
   width: 400px;
-  position: relative;
+  /* position: relative; */
 }
 
 .image-container img {
@@ -9,7 +9,7 @@
 
 .info {
   position: absolute;
-  color: white;
+  color: pink;
   bottom: 0;
   left: 0;
   padding: 10px;

@@ -37,14 +37,14 @@ console.dir(document);
 // }
 
 let age = 17;
-let movieRating = "PG";
+let movieRating = "A";
 
 if (age > 17) {
   console.log("You can watch any movie!");
 } else if (age === 17) {
   if (movieRating === "PG") {
     console.log("You can watch the movie!");
-  }
+  } else console.log("error");
   // ...
 }
 

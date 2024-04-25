@@ -7,7 +7,7 @@
 // }
 
 // sayHello(); // Output: Hello Bob!
-// console.log(name); // Output: Bob
+// console.log("line10", name); // Output: Bob
 
 function sayHello() {
   const name = "Bob";
